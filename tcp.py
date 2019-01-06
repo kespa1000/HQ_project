@@ -1,6 +1,6 @@
 # This Python file uses the following encoding: utf-8
 import socket
-
+print('hi')
 sock = socket.socket( socket.AF_INET, socket.SOCK_DGRAM)
 # AF_INET <= IPv4 , DGRAM <= UDP ¹æ½Ä
 # server
